@@ -4,4 +4,5 @@
 
 let guestList = ["Jameel", "Kaleem", "Naseem"]
 for (let guest of guestList) {
-    console.log(`Dear ${guest}, You are cordially invited to the Dinner tonight`)}; 
+    console.log(`Dear ${guest}, You are cordially invited to the Dinner tonight`);   
+}

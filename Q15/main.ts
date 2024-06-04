@@ -8,14 +8,10 @@
 
 // • Print a second set of invitation messages, one for each person who is still in your list.
 
-let guestList1 = ["Jameel", "Naseem", "Kaleem"]
-let removedGuest = guestList1.pop()
+let guestList = ["Jameel", "Naseem", "Kaleem"]
+guestList.pop()
+guestList.push("Saleem")
 
-console.log(`${removedGuest} can't join us on Dinner today`);
-
-guestList1.push("Saleem")
-
-for (let guest of guestList1) {
+for (let guest of guestList) {
     console.log(`Dear ${guest}, You are still invited to join Dinner today`);
 }
-
