@@ -3,5 +3,5 @@
 // Make sure you correct the error before closing the program.
 
 let friends = ["Faizan", "Salman", "Saqib"];
-console.log(friends[3]);
+console.log("Intentional Error: ", friends[3]);
 console.log(friends[2]);
